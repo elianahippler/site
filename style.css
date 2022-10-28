@@ -146,9 +146,9 @@ aside > h2{
 
 .image-items{
     max-width: 510px;
-    min-width: 300px;
+    min-width: 200px;
     max-height: 490px;
-    min-height: 290px;
+    min-height: 200px;
     border: none;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
     flex-grow: 1;
