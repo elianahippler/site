@@ -142,10 +142,9 @@ aside > h2{
     gap: 2vh;
     padding: 0 1vw;
 }
-.image-items:hover{
-    transform: scale(1.2);
-}
+
 .image-items{
+    padding: 2px;
     width: 510px;
     height: 490px;
     border: none;
