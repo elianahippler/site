@@ -1,5 +1,19 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Didact+Gothic & display=swap');
 
+:root{
+    --cor01: #F2F2F2;
+    --cor02: #C8D9A3;
+    --cor03: #97BF3F;
+    --cor04: #75A644;
+    --cor05: #5E8C3E;
+    --cor06: #437A27;
+
+    --fonte-padrao: 'Didact Gothic', sans-serif;
+    --fonte-titulo: 'Lobster Two', cursive;
+    --fonte-destaque: 'Yeseva One', cursive;
+}
 
 .container {
   position: relative;
@@ -52,29 +66,33 @@
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--fonte-padrao);
   font-size: 16px;
-  color: #444444;
-  background-color: #f1f1f1;
+  color: black;
+  background-color: var(--cor02);
   margin: 0;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Barclaycard Co Lt', sans-serif;
-  color: #018fd0;
+  color: var(--cor06);
   margin-top: 0;
 }
 
 h1 {
-  font-size: 54px;
+  font-family: var(--fonte-padrao);
+  color: var(--cor06);
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 36px;
+  color: var(--cor04);
+  font-family: var(--fonte-titulo);
+  font-size: 50px;
 }
 
 h3 {
-  color: #5224a0;
+  color: var(--cor06);  
+  font-family: var(--fonte-destaque);
   font-size: 26px;
 }
 
@@ -92,7 +110,7 @@ h3 {
 }
 
 .button {
-  font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
+  font-family: var(--fonte-padrao);
   margin: 10px 0 0 0;
   float: right;
   cursor: pointer;
@@ -106,7 +124,7 @@ h3 {
   -o-border-radius: 3px;
   border-radius: 3px;
   vertical-align: baseline;
-  background: #075da8;
+  background: var(--cor05);
   color: white;
   text-decoration: none !important;
   display: inline-block;
@@ -118,7 +136,7 @@ h3 {
 }
 
 .button:hover {
-  background-color: #059fdb !important;
+  background-color: var(--cor04) !important;
   color: white;
 }
 
@@ -127,8 +145,13 @@ h3 {
 }
 
 #progress_bar {
-  background-color: #018fd0;
+  background-color: var(--cor03);
   width: 20%;
   height: 10px;
   transition: all 100ms ease-in-out;
+}
+
+.results{
+    display: inline;
+    padding: 0px;
 }

@@ -41,16 +41,6 @@ function totalScore(){
     return total_score;
 }
 
-function getInfoBasedOnScore(){
-    if(totalScore() < 7){
-        var score_info = "Você precisa tomar mais cuidado com a segurança!";
-    } else if(totalScore() > 7){
-        var score_info = "Parabéns! Você está bem de segurança!"
-    }
-
-    return score_info;
-}
-
 var submit1 = document.getElementById('submit1');
 var submit2 = document.getElementById('submit2');
 var submit3 = document.getElementById('submit3');
