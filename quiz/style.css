@@ -94,6 +94,7 @@ h3 {
 .button {
   font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
   margin: 10px 0 0 0;
+  float: right;
   cursor: pointer;
 
   font-size: 1em;
