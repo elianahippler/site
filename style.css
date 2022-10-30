@@ -217,6 +217,31 @@ div.container > table {
     background-color: #8d4b25be;
 }
 
+.quiz{
+    background-color: var(--cor02);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: var(--fonte-padrao);
+}
+
+.quiz > p{
+    text-align: center;
+}
+
+.quiz > p > a{
+    text-decoration: none;
+    background-color: var(--cor04);
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+
+.quiz > p > a:hover{
+    background-color: var(--cor03);
+    transition: 0.7s;
+}
+
 
 footer{
     background-color: var(--cor05);
